@@ -1,5 +1,7 @@
-# SAIL 
-## Annonymous Release for NeurIPS24 Submission
+# SAIL: Self-Improving Efficient Online Alignment of Large Language Models
+
+## A lightweight plugin for Huggingface's DPOTrainer, achieving up to 11.6\% win-rate improvement with minimal overhead compared to fast DPO.
+
 
 ### Step 1: Filling YAML Configs
 1. We need HuggingFace Hub and WanDB to manage experiments. Please fill in `./configs/services/hugggingface.yaml` and `./configs/services/wandb.yaml` with your acconut info.
